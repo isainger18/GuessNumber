@@ -1,0 +1,43 @@
+.containerBox{
+height: 350px;
+width: 30%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+margin: auto;
+background-color: #f6f6f6;
+}
+.inputBox{
+    display: flex;
+    flex-direction: column;
+}
+#numberText, 
+.btn{
+    margin: 10px 20px;
+}
+
+.inputBox button{
+    border-radius: 15px;
+    padding: 5px ;
+    background-color: yellow;
+}
+.alert{
+    visibility: hidden;
+}
+.dngr{
+    color: #721c24;
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+    visibility: visible;
+}
+
+.sucess{
+    color: #155724;
+    background-color: #d4edda;
+    border-color: #c3e6cb;
+    visibility: visible;
+}
+#counterDiv{
+    display: flex;
+}
